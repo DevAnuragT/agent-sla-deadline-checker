@@ -1,0 +1,11 @@
+spec_version: "0.1.0"
+name: sla-deadline-checker
+version: 0.1.0
+description: "Computes incident age from explicit timestamps and compares it with each supplied SLA target. It identifies breached incidents without contacting an incident system."
+skills:
+  - sla-deadline-checker-skill
+tools:
+  - audit-sla-deadline-checker
+tags:
+  - "service-operations"
+  - evidence-driven
